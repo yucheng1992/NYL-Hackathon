@@ -8,6 +8,8 @@ from django.http import HttpRequest
 from django.template import RequestContext
 from datetime import datetime
 
+from . import models
+
 def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)
@@ -29,9 +31,7 @@ def contact(request):
         'app/contact.html',
         context_instance = RequestContext(request,
         {
-            'title':'Contact',
-            'message':'Your contact page.',
-            'year':datetime.now().year,
+            'rows': models.MasterTable.objects.all(),
         })
     )
 

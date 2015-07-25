@@ -2,19 +2,37 @@
 
 {% block content %}
 
-<h2>{{ title }}.</h2>
-<h3>{{ message }}</h3>
+<h2>MasterTable</h2>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+<table>
+    <thead>
+        <th>Name</th>
+        <th>Cl_ID</th>
+        <th>ESDA</th>
+        <th>Contract ID</th>
+        <th>Street</th>
+        <th>City</th>
+        <th>State</th>
+        <th>ZIP</th>
+        <th>Country</th>
+        <th>County</th>
+        <th>Gender</th>
+    </thead>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+	{% for row in rows %}
+	<tr>
+		<td>{{ row }} </td>
+		<td>{{ row.cl }} </td>
+		<td>{{ row.esda }} </td>
+		<td>{{ row.contract }} </td>
+		<td>{{ row.street_address }} </td>
+		<td>{{ row.city }} </td>
+		<td>{{ row.state }} </td>
+		<td>{{ row.zipcode }} - {{ row.extend_zip }} </td>
+		<td>{{ row.country }} </td>
+		<td>{{ row.us_county }} </td>
+		<td>{% if row.is_male %} M {% else %} F {% endif %} </td>
+	{% endfor %}
+</table>
 
 {% endblock %}
