@@ -28,13 +28,25 @@ def contact(request):
         for each in models.MasterTable.objects.all():
             each.delete()
         models.load_data('table.xls')
-
+    zipcode = request.GET.get('zip','')
+    gender = request.GET.get('gender','')
+    esda = request.GET.get('esda','')
+    if gender:
+        gender = True if gender == 'M' else False
+    if zipcode:
+        rows = models.MasterTable.objects.filter(zipcode=zipcode)
+    elif gender in [True, False]:
+        rows = models.MasterTable.objects.filter(is_male=gender)
+    elif esda:
+        rows = models.MasterTable.objects.filter(esda=esda)
+    else:
+        rows = models.MasterTable.objects.all()
     return render(
         request,
         'app/contact.html',
         context_instance = RequestContext(request,
         {
-            'rows': models.MasterTable.objects.all(),
+            'rows': rows,
         })
     )
 

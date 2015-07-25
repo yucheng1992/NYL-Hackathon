@@ -39,3 +39,21 @@ class MasterTable(models.Model):
 
     def __unicode__(self):
         return self.first_name + ' ' + self.last_name
+
+
+def generateLatitudeLongitude(zipCode):
+    """Generate the longitude and latitude according to the zipcode."""
+    zcdb = ZipCodeDatabase()
+    try :
+        zipCodeInfo = zcdb[int(zipCode)]
+        latitude = zipCodeInfo.latitude
+        longitude = zipCodeInfo.longitude
+        return (longitude, latitude)
+    except:
+        pass
+
+def readDataFromExcel(fileName):
+    """Read data from excel file."""
+    user_data = pd.read_excel(fileName)
+    user_data_zip = user_data[["ZIP"]]
+    return  user_data_zip

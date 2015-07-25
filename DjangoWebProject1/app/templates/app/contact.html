@@ -7,6 +7,26 @@ Upload spreadsheet <br>
 {% csrf_token %}
 <input type="submit" value="Load Data">
 </form>
+
+<form>
+{% csrf_token %}
+<input type="text" placeholder="zip" name="zip">
+<input type="submit" value="Filter">
+</form>
+
+<form>
+{% csrf_token %}
+<input type="text" placeholder="Gender" name="gender">
+<input type="submit" value="Filter">
+</form>
+
+<form>
+{% csrf_token %}
+<input type="text" placeholder="ESDA" name="esda">
+<input type="submit" value="Filter">
+</form>
+
+
 <table>
 
 <h2>MasterTable</h2>
