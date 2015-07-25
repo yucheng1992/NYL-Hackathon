@@ -1,0 +1,30 @@
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.WebRole.dll
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\attach_server.py
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\visualstudio_py_debugger.py
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\visualstudio_py_repl.py
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\visualstudio_py_util.py
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\__init__.py
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\__main__.py
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\AzureSetup.cfg
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe.config
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\wfastcgi.py
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\deployment-updated-orig-prefix.txt
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\ptvs_virtualenv_proxy.py
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\web.config
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Debug\web.debug.config
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\obj\Debug\attach_server.py
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\obj\Debug\visualstudio_py_debugger.py
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\obj\Debug\visualstudio_py_repl.py
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\obj\Debug\visualstudio_py_util.py
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\obj\Debug\__init__.py
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\obj\Debug\__main__.py
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\bin\AzureSetup.cfg
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe.config
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\bin\wfastcgi.py
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\obj\Debug\deployment-updated-orig-prefix.txt
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\ptvs_virtualenv_proxy.py
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\obj\Debug\web.config
+C:\Users\Peter\NYL-Hackathon\DjangoWebProject1\obj\Debug\web.debug.config

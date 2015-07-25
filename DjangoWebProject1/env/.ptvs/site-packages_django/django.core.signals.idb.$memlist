@@ -1,0 +1,5 @@
+Signal
+request_started
+request_finished
+got_request_exception
+setting_changed

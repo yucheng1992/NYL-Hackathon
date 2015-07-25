@@ -1,0 +1,5 @@
+sys
+cx_Oracle
+DatabaseIntrospection
+six
+OracleIntrospection

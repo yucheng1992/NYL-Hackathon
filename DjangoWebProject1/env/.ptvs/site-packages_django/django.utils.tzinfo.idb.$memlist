@@ -1,0 +1,11 @@
+unicode_literals
+time
+warnings
+timedelta
+tzinfo
+RemovedInDjango19Warning
+DEFAULT_LOCALE_ENCODING
+force_str
+force_text
+FixedOffset
+LocalTimezone

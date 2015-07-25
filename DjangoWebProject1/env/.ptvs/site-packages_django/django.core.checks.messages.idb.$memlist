@@ -1,0 +1,14 @@
+unicode_literals
+force_str
+python_2_unicode_compatible
+DEBUG
+INFO
+WARNING
+ERROR
+CRITICAL
+CheckMessage
+Debug
+Info
+Warning
+Error
+Critical

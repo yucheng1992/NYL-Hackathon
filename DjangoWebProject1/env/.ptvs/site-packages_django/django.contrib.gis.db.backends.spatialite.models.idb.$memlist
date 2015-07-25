@@ -1,0 +1,9 @@
+SpatialRefSysMixin
+DatabaseWrapper
+connection
+models
+connection_created
+python_2_unicode_compatible
+SpatialiteGeometryColumns
+SpatialiteSpatialRefSys
+add_spatial_version_related_fields

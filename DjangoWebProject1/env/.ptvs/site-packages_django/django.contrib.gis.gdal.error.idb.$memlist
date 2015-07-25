@@ -1,0 +1,8 @@
+GDALException
+OGRException
+SRSException
+OGRIndexError
+OGRERR_DICT
+CPLERR_DICT
+ERR_NONE
+check_err

@@ -1,0 +1,9 @@
+capi
+numpy
+GEOSCoordSeq
+GEOSException
+GEOSGeometry
+Point
+range
+LineString
+LinearRing

@@ -1,0 +1,5 @@
+SpatialReference
+DEFAULT_DB_ALIAS
+connections
+add_srs_entry
+add_postgis_srs

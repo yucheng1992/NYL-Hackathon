@@ -1,0 +1,9 @@
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.WebRole.dll
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\AzureSetup.cfg
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\Microsoft.PythonTools.AzureSetup.exe.config
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\bin\wfastcgi.py
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Release\deployment-updated-orig-prefix.txt
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\ptvs_virtualenv_proxy.py
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Release\web.config
+c:\users\peter\documents\visual studio 2013\Projects\DjangoWebProject1\DjangoWebProject1\obj\Release\web.debug.config

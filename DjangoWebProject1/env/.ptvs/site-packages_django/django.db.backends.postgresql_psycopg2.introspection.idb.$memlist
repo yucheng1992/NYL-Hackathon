@@ -1,0 +1,7 @@
+unicode_literals
+namedtuple
+BaseDatabaseIntrospection
+FieldInfo
+TableInfo
+force_text
+DatabaseIntrospection

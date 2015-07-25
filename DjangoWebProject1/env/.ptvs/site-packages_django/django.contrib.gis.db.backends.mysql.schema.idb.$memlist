@@ -1,0 +1,6 @@
+logging
+GeometryField
+DatabaseSchemaEditor
+OperationalError
+logger
+MySQLGISSchemaEditor

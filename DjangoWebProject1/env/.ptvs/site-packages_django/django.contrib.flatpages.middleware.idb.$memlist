@@ -1,0 +1,4 @@
+settings
+flatpage
+Http404
+FlatpageFallbackMiddleware

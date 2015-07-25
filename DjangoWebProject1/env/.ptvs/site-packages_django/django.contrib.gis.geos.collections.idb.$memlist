@@ -1,0 +1,15 @@
+byref
+c_int
+c_uint
+capi
+GEOSGeometry
+get_pointer_arr
+LinearRing
+LineString
+Point
+Polygon
+range
+GeometryCollection
+MultiPoint
+MultiLineString
+MultiPolygon

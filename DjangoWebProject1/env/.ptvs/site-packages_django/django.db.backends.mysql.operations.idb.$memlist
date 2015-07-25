@@ -1,0 +1,8 @@
+unicode_literals
+uuid
+settings
+BaseDatabaseOperations
+six
+timezone
+force_text
+DatabaseOperations

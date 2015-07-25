@@ -1,0 +1,12 @@
+unicode_literals
+sys
+six
+force_str
+http_cookies
+_cookie_encodes_correctly
+_tc
+_cookie_allows_colon_in_names
+cookie_pickles_properly
+SimpleCookie
+Morsel
+parse_cookie

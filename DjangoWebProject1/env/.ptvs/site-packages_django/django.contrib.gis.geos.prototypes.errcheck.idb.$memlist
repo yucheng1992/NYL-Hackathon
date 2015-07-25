@@ -1,0 +1,13 @@
+c_void_p
+string_at
+GEOSException
+GEOSFunc
+free
+last_arg_byref
+check_dbl
+check_geom
+check_minus_one
+check_predicate
+check_sized_string
+check_string
+check_zero

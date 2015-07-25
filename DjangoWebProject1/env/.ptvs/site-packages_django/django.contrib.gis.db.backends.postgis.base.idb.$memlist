@@ -1,0 +1,10 @@
+settings
+NO_DB_ALIAS
+Psycopg2DatabaseWrapper
+cached_property
+PostGISCreation
+DatabaseFeatures
+PostGISIntrospection
+PostGISOperations
+PostGISSchemaEditor
+DatabaseWrapper

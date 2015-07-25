@@ -1,0 +1,15 @@
+unicode_literals
+atan
+exp
+log
+pi
+sin
+GEOSGeometry
+LinearRing
+Point
+Polygon
+GoogleMapException
+range
+DTOR
+RTOD
+GoogleZoom

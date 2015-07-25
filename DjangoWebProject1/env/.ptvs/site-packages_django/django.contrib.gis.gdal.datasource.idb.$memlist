@@ -1,0 +1,12 @@
+byref
+GDALBase
+Driver
+GDALException
+OGRIndexError
+Layer
+capi
+six
+force_bytes
+force_text
+range
+DataSource

@@ -1,0 +1,5 @@
+register_hstore_handler
+Operation
+CreateExtension
+HStoreExtension
+UnaccentExtension

@@ -1,0 +1,14 @@
+settings
+BaseCommand
+CommandError
+DEFAULT_DB_ALIAS
+connections
+migrations
+MigrationExecutor
+AmbiguityError
+SwappableTuple
+MigrationOptimizer
+MigrationWriter
+six
+get_docs_version
+Command

@@ -1,0 +1,7 @@
+byref
+c_int
+GDALBase
+capi
+force_text
+GDAL_PIXEL_TYPES
+GDALBand

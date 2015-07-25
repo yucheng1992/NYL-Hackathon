@@ -1,0 +1,14 @@
+unicode_literals
+datetime
+re
+chain
+settings
+models
+operations
+Migration
+AlterModelOptions
+MigrationOptimizer
+MigrationQuestioner
+six
+stable_topological_sort
+MigrationAutodetector

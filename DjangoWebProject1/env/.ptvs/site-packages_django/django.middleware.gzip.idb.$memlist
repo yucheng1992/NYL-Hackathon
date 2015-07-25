@@ -1,0 +1,6 @@
+re
+patch_vary_headers
+compress_sequence
+compress_string
+re_accepts_gzip
+GZipMiddleware

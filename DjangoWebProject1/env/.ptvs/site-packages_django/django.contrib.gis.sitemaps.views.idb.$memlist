@@ -1,0 +1,11 @@
+unicode_literals
+apps
+GeometryField
+render_to_kml
+render_to_kmz
+FieldDoesNotExist
+DEFAULT_DB_ALIAS
+connections
+Http404
+kml
+kmz

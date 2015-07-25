@@ -1,0 +1,7 @@
+unicode_literals
+apps
+checks
+registry
+BaseCommand
+CommandError
+Command

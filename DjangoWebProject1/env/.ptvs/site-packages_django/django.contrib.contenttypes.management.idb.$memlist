@@ -1,0 +1,6 @@
+apps
+DEFAULT_DB_ALIAS
+router
+six
+input
+update_contenttypes
