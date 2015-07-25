@@ -48,16 +48,36 @@
     <Folder Include="app\static\app\content\" />
     <Folder Include="app\static\app\fonts\" />
     <Folder Include="app\static\app\scripts\" />
+    <Folder Include="app\static\assets\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="DjangoWebProject1\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="djangoTemplate.pubxml" />
+    <Content Include="app\CustData.json" />
+    <Content Include="app\data1.json" />
+    <Content Include="app\static\app\content\bootstrap-table.css" />
+    <Content Include="app\static\app\scripts\bootstrap-sortable.js" />
+    <Content Include="app\static\app\scripts\bootstrap-table-all.js" />
+    <Content Include="app\static\app\scripts\bootstrap-table-all.min.js" />
+    <Content Include="app\static\app\scripts\bootstrap-table-flat-json.js" />
+    <Content Include="app\static\app\scripts\bootstrap-table-locale-all.js" />
+    <Content Include="app\static\app\scripts\bootstrap-table-locale-all.min.js" />
+    <Content Include="app\static\app\scripts\bootstrap-table.js" />
+    <Content Include="app\static\app\scripts\bootstrap-table.min.js" />
+    <Content Include="app\static\app\scripts\CustData.json" />
+    <Content Include="app\static\app\scripts\data1.json" />
     <Content Include="app\static\app\scripts\gmaps-heatmap.js" />
     <Content Include="app\static\app\scripts\heatmap.js" />
+    <Content Include="app\static\app\scripts\jquery-1.11.3.js" />
+    <Content Include="app\static\app\scripts\jquery-1.11.3.min.js" />
+    <Content Include="app\static\app\scripts\moment-min.js" />
+    <Content Include="app\static\data1.json" />
+    <Content Include="app\templates\app\CustData.json" />
+    <Content Include="app\templates\app\data1.json" />
     <Content Include="app\templates\CustData.json" />
-    <Content Include="app\templates\customerData.json" />
+    <Content Include="app\templates\data1.json" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

@@ -6,12 +6,18 @@
     <title>{{ title }} - My Django Application</title>
     {% load staticfiles %}
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap-table.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
     <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="../static/app/scripts/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="../static/app/scripts/jquery-1.11.3.js"></script>
     <script type="text/javascript" src="../static/app/scripts/heatmap.js"></script>
     <script type="text/javascript" src="../static/app/scripts/gmaps-heatmap.js"></script>
+
+
+    <script src="../static/app/scripts/jquery-1.11.3.min.js"></script>
+    <script src="../static/app/scripts/bootstrap.min.js"></script>
+    <script src="../static/app/scripts/bootstrap-table.js"></script>
 </head>
 
 <body>
@@ -44,7 +50,6 @@
         </footer>
     </div>
 
-    <script src="{% static 'app/scripts/jquery-1.10.2.js' %}"></script>
     <script src="{% static 'app/scripts/bootstrap.js' %}"></script>
     <script src="{% static 'app/scripts/respond.js' %}"></script>
 {% block scripts %}{% endblock %}
