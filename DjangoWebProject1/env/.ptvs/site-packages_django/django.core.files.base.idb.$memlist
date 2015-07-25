@@ -1,0 +1,16 @@
+unicode_literals
+os
+BytesIO
+StringIO
+UnsupportedOperation
+FileProxyMixin
+six
+force_bytes
+force_str
+python_2_unicode_compatible
+smart_text
+File
+ContentFile
+endswith_cr
+endswith_lf
+equals_lf

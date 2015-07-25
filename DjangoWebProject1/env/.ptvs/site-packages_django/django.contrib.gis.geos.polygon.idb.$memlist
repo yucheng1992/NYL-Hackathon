@@ -1,0 +1,10 @@
+byref
+c_uint
+capi
+GEOSGeometry
+GEOM_PTR
+get_pointer_arr
+LinearRing
+six
+range
+Polygon

@@ -1,0 +1,8 @@
+unicode_literals
+ContentType
+models
+ModelForm
+modelformset_factory
+BaseModelFormSet
+BaseGenericInlineFormSet
+generic_inlineformset_factory

@@ -1,0 +1,5 @@
+argparse
+warnings
+BaseCommand
+RemovedInDjango19Warning
+Command

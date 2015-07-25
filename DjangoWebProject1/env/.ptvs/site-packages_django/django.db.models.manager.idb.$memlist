@@ -1,0 +1,14 @@
+copy
+inspect
+import_module
+router
+QuerySet
+six
+python_2_unicode_compatible
+ensure_default_manager
+BaseManager
+Manager
+ManagerDescriptor
+AbstractManagerDescriptor
+SwappedManagerDescriptor
+EmptyManager

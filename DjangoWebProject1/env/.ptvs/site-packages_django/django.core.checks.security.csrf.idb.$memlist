@@ -1,0 +1,11 @@
+settings
+Tags
+Warning
+register
+W003
+W016
+W017
+_csrf_middleware
+check_csrf_cookie_httponly
+check_csrf_cookie_secure
+check_csrf_middleware

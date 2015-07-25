@@ -1,0 +1,13 @@
+pickle
+time
+DEFAULT_TIMEOUT
+BaseCache
+six
+RemovedInDjango19Warning
+RenameMethodsBase
+force_str
+cached_property
+BaseMemcachedCacheMethods
+BaseMemcachedCache
+MemcachedCache
+PyLibMCCache

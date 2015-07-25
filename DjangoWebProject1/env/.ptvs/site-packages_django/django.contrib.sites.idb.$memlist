@@ -1,0 +1,10 @@
+admin
+apps
+management
+managers
+middleware
+models
+requests
+shortcuts
+default_app_config
+migrations

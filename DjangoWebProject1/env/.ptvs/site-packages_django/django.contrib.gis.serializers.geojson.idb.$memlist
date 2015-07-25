@@ -1,0 +1,9 @@
+unicode_literals
+HAS_GDAL
+SerializationError
+SerializerDoesNotExist
+JSONSerializer
+CoordTransform
+SpatialReference
+Serializer
+Deserializer

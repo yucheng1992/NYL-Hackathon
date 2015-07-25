@@ -1,0 +1,9 @@
+unicode_literals
+keyword
+re
+OrderedDict
+BaseCommand
+CommandError
+DEFAULT_DB_ALIAS
+connections
+Command

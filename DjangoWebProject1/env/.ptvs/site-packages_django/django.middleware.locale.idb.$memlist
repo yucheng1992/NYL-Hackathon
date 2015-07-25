@@ -1,0 +1,9 @@
+settings
+LocaleRegexURLResolver
+get_resolver
+get_script_prefix
+is_valid_path
+HttpResponseRedirect
+translation
+patch_vary_headers
+LocaleMiddleware

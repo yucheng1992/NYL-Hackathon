@@ -1,0 +1,6 @@
+unicode_literals
+AppCommand
+sql_destroy_indexes
+DEFAULT_DB_ALIAS
+connections
+Command

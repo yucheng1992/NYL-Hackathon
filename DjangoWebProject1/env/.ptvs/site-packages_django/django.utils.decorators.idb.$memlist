@@ -1,0 +1,11 @@
+ContextDecorator
+WRAPPER_ASSIGNMENTS
+update_wrapper
+wraps
+six
+classonlymethod
+method_decorator
+decorator_from_middleware_with_args
+decorator_from_middleware
+available_attrs
+make_middleware_decorator

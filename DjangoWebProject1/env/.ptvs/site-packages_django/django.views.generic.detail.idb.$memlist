@@ -1,0 +1,12 @@
+unicode_literals
+ImproperlyConfigured
+models
+Http404
+_
+ContextMixin
+TemplateResponseMixin
+View
+SingleObjectMixin
+BaseDetailView
+SingleObjectTemplateResponseMixin
+DetailView

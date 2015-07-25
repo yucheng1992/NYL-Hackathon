@@ -1,0 +1,9 @@
+threading
+CONTEXT_PTR
+error_h
+lgeos
+notice_h
+GEOSContextHandle
+GEOSContext
+thread_context
+GEOSFunc

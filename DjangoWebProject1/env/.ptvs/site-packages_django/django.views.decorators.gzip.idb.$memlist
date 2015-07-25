@@ -1,0 +1,3 @@
+GZipMiddleware
+decorator_from_middleware
+gzip_page

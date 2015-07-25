@@ -1,0 +1,16 @@
+unicode_literals
+models
+Operation
+ModelState
+normalize_together
+six
+cached_property
+CreateModel
+DeleteModel
+RenameModel
+AlterModelTable
+AlterUniqueTogether
+AlterIndexTogether
+AlterOrderWithRespectTo
+AlterModelOptions
+AlterModelManagers

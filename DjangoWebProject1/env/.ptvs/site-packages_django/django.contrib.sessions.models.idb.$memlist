@@ -1,0 +1,7 @@
+unicode_literals
+models
+python_2_unicode_compatible
+_
+SessionManager
+Session
+SessionStore

@@ -1,0 +1,6 @@
+unicode_literals
+BaseCommand
+sql_flush
+DEFAULT_DB_ALIAS
+connections
+Command

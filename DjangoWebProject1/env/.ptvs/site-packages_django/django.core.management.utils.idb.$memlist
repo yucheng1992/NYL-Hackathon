@@ -1,0 +1,12 @@
+unicode_literals
+os
+sys
+PIPE
+Popen
+six
+DEFAULT_LOCALE_ENCODING
+force_text
+CommandError
+popen_wrapper
+handle_extensions
+find_command

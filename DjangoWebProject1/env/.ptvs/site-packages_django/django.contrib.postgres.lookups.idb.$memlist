@@ -1,0 +1,8 @@
+Lookup
+Transform
+PostgresSimpleLookup
+FunctionTransform
+DataContains
+ContainedBy
+Overlap
+Unaccent
