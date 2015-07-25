@@ -31,16 +31,16 @@ def contact(request):
     zipcode = request.GET.get('zip','')
     gender = request.GET.get('gender','')
     esda = request.GET.get('esda','')
+    rows = models.MasterTable.objects.all()
+
     if gender:
         gender = True if gender == 'M' else False
     if zipcode:
-        rows = models.MasterTable.objects.filter(zipcode=zipcode)
-    elif gender in [True, False]:
-        rows = models.MasterTable.objects.filter(is_male=gender)
-    elif esda:
-        rows = models.MasterTable.objects.filter(esda=esda)
-    else:
-        rows = models.MasterTable.objects.all()
+        rows = rows.filter(zipcode=zipcode)
+    if gender in [True, False]:
+        rows = rows.filter(is_male=gender)
+    if esda:
+        rows = rows.filter(esda=esda)
     return render(
         request,
         'app/contact.html',
