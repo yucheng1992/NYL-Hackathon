@@ -16,9 +16,9 @@ def load_data(fileName='table.xls'):
                     state=row[1]['STATE_CD'],
                     zipcode=int(row[1]['ZIP']),
                     extend_zip=int(row[1]['EXTND_ZIP_CD']),
-                    country=row[1]['CTY_AD'],
+                    country=row[1]['CNTRY_CD'],
                     us_county=int(row[1]['US_CNTY_CD']),
-                    is_male=True if row[1]['GENDER_CD'] else False,
+                    is_male=True if row[1]['GENDER_CD'] == 'M' else False,
                     )
         customer.save()
 
