@@ -24,8 +24,11 @@ def home(request):
     )
 
 def contact(request):
-    """Renders the contact page."""
-    assert isinstance(request, HttpRequest)
+    if request.POST:
+        for each in models.MasterTable.objects.all():
+            each.delete()
+        models.load_data('table.xls')
+
     return render(
         request,
         'app/contact.html',
@@ -48,4 +51,3 @@ def about(request):
             'year':datetime.now().year,
         })
     )
-

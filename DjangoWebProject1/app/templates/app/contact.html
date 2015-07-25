@@ -2,9 +2,15 @@
 
 {% block content %}
 
+Upload spreadsheet <br>
+<form method="post">
+{% csrf_token %}
+<input type="submit" value="run">
+</form>
+<table>
+
 <h2>MasterTable</h2>
 
-<table>
     <thead>
         <th>Name</th>
         <th>Cl_ID</th>
