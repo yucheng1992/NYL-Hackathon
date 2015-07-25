@@ -20,6 +20,7 @@
 
 <h2>MasterTable</h2>
 
+	{% if rows %}
     <thead>
         <th>Name</th>
         <th>Cl_ID</th>
@@ -33,6 +34,7 @@
         <th>County</th>
         <th>Gender</th>
     </thead>
+    {% endif %}
 
 	{% for row in rows %}
 	<tr>
@@ -47,6 +49,8 @@
 		<td>{{ row.country }} </td>
 		<td>{{ row.us_county }} </td>
 		<td>{% if row.is_male %} M {% else %} F {% endif %} </td>
+	{% empty %}
+	No results found!
 	{% endfor %}
 </table>
 
