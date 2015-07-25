@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def master_table(request):
+    return render(request, 'map/index.html')
