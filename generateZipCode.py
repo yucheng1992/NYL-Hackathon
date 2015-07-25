@@ -3,9 +3,7 @@ import pandas as pd
 import random
 
 def generateLatitudeLongitude(zipCode):
-    '''
-    Generate the longitude and latitude according to the zipcode.
-    '''
+    """Generate the longitude and latitude according to the zipcode."""
     zcdb = ZipCodeDatabase()
     try :
         zipCodeInfo = zcdb[int(zipCode)]
@@ -22,6 +20,7 @@ def readDataFromExcel(fileName):
     return  user_data_zip
 
 def assignRandomZipCode(df):
+    """Assign random longitude and latitude to dummy ones"""
     random.seed(2)
     geo_info = map(generateLatitudeLongitude, df["ZIP"])
     geo_unique = list(set(geo_info))
@@ -37,6 +36,7 @@ def assignRandomZipCode(df):
     return new_geo_info
 
 def addColumnsToDataFrame(df, geo_info):
+    """Add longitude and latitude to data frame"""
     longitude = [pair[0] for pair in geo_info]
     latitude = [pair[1] for pair in geo_info]
     df["LONGITUDE"] = longitude
